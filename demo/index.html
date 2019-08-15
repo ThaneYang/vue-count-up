@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>vue-count-up</title>
+</head>
+
+<body>
+    <script src='https://unpkg.com/vue@2.2.6'></script>
+    <script src="/dist/vue-count-up.min.js"></script>
+    <div id="app">
+        <template>
+            <h1>VueCountUp</h1>
+            <div class='container'>
+                <vue-count-up :ev="endVal" :opts="opts"></vue-count-up>
+            </div>
+        </template>
+    </div>
+    <script>
+        var Main = {
+            name: 'test',
+            data() {
+                return {
+                    endVal: 2019,
+                    opts: {
+                        startVal: 1000
+                    }
+                }
+            }
+        };
+        var Ctor = Vue.extend(Main)
+        new Ctor().$mount('#app')
+    </script>
+</body>
+
+</html>
