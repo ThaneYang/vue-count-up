@@ -7,7 +7,7 @@ You can set startVal and endVal ,it will automatic judge count up or count down.
 It is support vue-ssr.
 It is learn from countUp.js@2.0.4;
 
-## [Try the demo](https://github.com/WillamYang/vue-count-up/demo/)
+<!-- ## [Try the demo](https://github.com/WillamYang/vue-count-up/demo/) -->
 
 ### How to use?
 ```bash
@@ -38,7 +38,7 @@ npm install vue-count-up
 ```
 demo:
 
-Use CDN Script: [demo](https://github.com/WillamYang/vue-count-up/demo/)
+<!-- Use CDN Script: [demo](https://github.com/WillamYang/vue-count-up/demo/) -->
 
 ### Params
 |    Property    |    Description   |   type   |	default	|
