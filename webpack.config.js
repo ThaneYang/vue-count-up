@@ -6,8 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-count-up.min.js',
-    library: 'VueCountUp',
+    filename: 'v-count-up.min.js',
+    library: 'VCountUp',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },

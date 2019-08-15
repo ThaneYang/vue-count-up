@@ -1,30 +1,30 @@
-# vue-count-up
+# v-count-up
 
 > It's a vue component that will count to a target number at a specified duration
 
-vue-count-up is a dependency-free, lightweight vue component that can be overwrited easingFn by yourself.
+v-count-up is a dependency-free, lightweight vue component that can be overwrited easingFn by yourself.
 You can set startVal and endVal ,it will automatic judge count up or count down.
 It is support vue-ssr.
 It is learn from countUp.js@2.0.4;
 
-<!-- ## [Try the demo](https://github.com/WillamYang/vue-count-up/demo/) -->
+<!-- ## [Try the demo](https://github.com/WillamYang/v-count-up/demo/) -->
 
 ### How to use?
 ```bash
-npm install vue-count-up
+npm install @yangzhiwe/v-count-up
 ```
 
 ### Example
 
 ```vue
 <template>
-  <vue-count-up :ev="endVal" :opts="opts"></vue-count-up>
+  <v-count-up :ev="endVal" :opts="opts"></v-count-up>
 </template>
 
 <script>
-  import VueCountUp from 'vue-count-up';
+  import VCountUp from '@yangzhiwe/v-count-up';
   export default {
-    components: { VueCountUp },
+    components: { VCountUp },
     data () {
       return {
         endVal: 2019,
@@ -38,7 +38,7 @@ npm install vue-count-up
 ```
 demo:
 
-<!-- Use CDN Script: [demo](https://github.com/WillamYang/vue-count-up/demo/) -->
+<!-- Use CDN Script: [demo](https://github.com/WillamYang/v-count-up/demo/) -->
 
 ### Params
 |    Property    |    Description   |   type   |	default	|
@@ -74,7 +74,7 @@ demo:
 | Function Name | Description   |
 | :--------:   | -----  |
 |    mountedCallback    |  when mounted will emit  mountedCallback  |
-|    start    |  start the vue-count-up  |
+|    start    |  start the v-count-up  |
 |    pauseResume    |  Toggle pause/resume  |
 |    reset    |  Reset the animation |
 |    update    |  Update the end value and animate |

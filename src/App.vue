@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <vue-count-up :ev="endVal" :opts="opts"></vue-count-up>
+    <v-count-up :ev="endVal" :opts="opts"></v-count-up>
   </div>
 </template>
 
 <script>
-import VueCountUp from './vue-count-up.vue'
+import VCountUp from './v-count-up.vue'
 
 export default {
   name: 'countup-demo',
   components: {
-    VueCountUp
+    VCountUp
   },
   data () {
     return {

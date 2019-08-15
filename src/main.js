@@ -1,6 +1,6 @@
-import VueCountUp from './vue-count-up.vue';
-export default VueCountUp;
+import VCountUp from './v-count-up.vue';
+export default VCountUp;
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.component('vue-count-up', VueCountUp);
+  window.Vue.component('v-count-up', VCountUp);
 }
