@@ -36,7 +36,6 @@ npm install @yangzhiwe/v-count-up
   }
 </script>
 ```
-demo:
 
 <!-- Use CDN Script: [demo](https://github.com/WillamYang/v-count-up/demo/) -->
 
