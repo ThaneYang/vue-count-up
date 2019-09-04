@@ -11,7 +11,7 @@ It is learn from countUp.js@2.0.4;
 
 ### How to use?
 ```bash
-npm install @yangzhiwe/v-count-up
+npm install @yangzhiwei/v-count-up
 ```
 
 ### Example
